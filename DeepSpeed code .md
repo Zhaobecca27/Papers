@@ -3,21 +3,26 @@
 # [https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat/training](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat/training)
 
 
-1. <SOS>、<BOS>、<GO>：代表一个序列的开始。
+1. `<SOS>`、`<BOS>`、`<GO>`：代表一个序列的开始。  
+   `<SOS>`, `<BOS>`, `<GO>`: Represent the start of a sequence.  
 
-2. <EOS>：代表一个序列的结束，作为判断终止的标签。
+2. `<EOS>`：代表一个序列的结束，作为判断终止的标签。  
+   `<EOS>`: Represents the end of a sequence, used as a termination marker.  
 
-3.<MASK>：用于遮盖句子中的一些单词。
+3. `<MASK>`：用于遮盖句子中的一些单词。  
+   `<MASK>`: Used to mask some words in a sentence.  
 
-4.<UNK>：未知字符，代表词典中没有的词。
+4. `<UNK>`：未知字符，代表词典中没有的词。  
+   `<UNK>`: Represents unknown tokens that are not in the vocabulary.  
 
-5.<SEP>: 用于分隔两个输入句子，例如输入句子 A 和 B，要在句子 A，B 后面增加 <SEP> 标志。
+5. `<SEP>`：用于分隔两个输入句子，例如输入句子 A 和 B，要在句子 A，B 后面增加 `<SEP>` 标志。  
+   `<SEP>`: Used to separate two input sentences. For example, in input sentences A and B, add `<SEP>` after them.  
 
-6.<CLS> ：放在句子的首位，表示句子的开始，就是classification的意思，通常会在bert等模型出现。
+6. `<CLS>`：放在句子的首位，表示句子的开始，就是 classification 的意思，通常会在 BERT 等模型中出现。  
+   `<CLS>`: Placed at the beginning of a sentence, representing the start. It stands for "classification" and is commonly used in models like BERT.  
 
-7.<PAD>：补全字符，例如要将句子处理为特定的长度，我们就要在句子前后补<PAD>。
-
-
+7. `<PAD>`：补全字符，例如要将句子处理为特定的长度，我们就要在句子前后补 `<PAD>`。  
+   `<PAD>`: Padding token, used to adjust a sentence to a specific length by adding `<PAD>` at the beginning or end.  
 
 # deepspeedchat
 
