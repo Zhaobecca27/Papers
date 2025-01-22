@@ -3,9 +3,9 @@
 # [https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat/training](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat/training)
 
 
-1.<SOS>、<BOS>、<GO>：代表一个序列的开始。
+1. <SOS>、<BOS>、<GO>：代表一个序列的开始。
 
-2.<EOS>：代表一个序列的结束，作为判断终止的标签。
+2. <EOS>：代表一个序列的结束，作为判断终止的标签。
 
 3.<MASK>：用于遮盖句子中的一些单词。
 
