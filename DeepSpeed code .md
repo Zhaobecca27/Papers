@@ -2,7 +2,6 @@
 
 # [https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat/training](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat/training)
 
-地址：mnt/v-1s6ph1owlsqj0v17/share/zhaozhiruo/DeepSpeedExamples-chatgpt/applications/DeepSpeedChat/training/
 
 1.<SOS>、<BOS>、<GO>：代表一个序列的开始。
 
@@ -17,6 +16,8 @@
 6.<CLS> ：放在句子的首位，表示句子的开始，就是classification的意思，通常会在bert等模型出现。
 
 7.<PAD>：补全字符，例如要将句子处理为特定的长度，我们就要在句子前后补<PAD>。
+
+
 
 # deepspeedchat
 
